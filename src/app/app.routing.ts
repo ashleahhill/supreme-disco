@@ -8,6 +8,6 @@ export const routes: Routes = [
   { path: '', component: DashboardComponent, pathMatch: 'full' },
   { path: 'lazy', loadChildren: './features/lazy/index#LazyModule' },
   { path: 'sync', loadChildren: './features/sync/index#SyncModule?sync=true' },
-  { path: 'paper', loadChildren: './features/paper/index#PaperModule?sync=true' },
+  { path: 'breakout', loadChildren: './features/breakout/index#BreakoutModule?sync=true' },
   { path: '**', component: NotFound404Component }
 ];

@@ -15,9 +15,9 @@ export const views: Object[] = [
     link: ['sync']
   },
     {
-    name: 'Paper',
+    name: 'Breakout',
     icon: 'note',
-    link: ['paper']
+    link: ['breakout']
   },
   {
     name: 'Bad Link',
